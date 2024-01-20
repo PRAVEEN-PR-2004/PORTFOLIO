@@ -10,7 +10,7 @@ const Project = () => {
     <>
       <ScrollTransition />
       <Navbar />
-      <Heroimg2 heading="PROJECT" text="Some of my most recent projects" />
+      <Heroimg2 heading="PROJECTS" text="Some of my most recent projects" />
       <WorkCart />
 
       <Footer />
