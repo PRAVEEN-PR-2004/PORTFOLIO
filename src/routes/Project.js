@@ -1,24 +1,21 @@
-import React from 'react'
-import Navbar from '../Component/Navbar'
-import Footer from '../Component/Footer'
-import Heroimg2 from '../Component/Heroimg2'
-import WorkCart from '../Component/WorkCart'
-import ScrollTransition from '../Component/Scroll'
-
-
+import React from "react";
+import Navbar from "../Component/Navbar";
+import Footer from "../Component/Footer";
+import Heroimg2 from "../Component/Heroimg2";
+import WorkCart from "../Component/WorkCart";
+import ScrollTransition from "../Component/Scroll";
 
 const Project = () => {
   return (
-   <>
+    <>
+      <ScrollTransition />
+      <Navbar />
+      <Heroimg2 heading="PROJECT" text="Some of my most recent projects" />
+      <WorkCart />
 
-  <ScrollTransition/>
-   <Navbar/>
-   <Heroimg2 heading="PROJECTS" text="Some of my most recent projects"/>
-   <WorkCart/>
-   
-   <Footer/>
-   </>
-  )
-}
+      <Footer />
+    </>
+  );
+};
 
-export default Project
+export default Project;
