@@ -4,7 +4,7 @@ import { FaSchool, FaPhone, FaMailBulk, FaLinkedin, FaGithub, FaWhatsapp } from 
 
 function Footer() {
   return (
-    <div className="footer scroll-transition">
+    <div className="footer ">
       <div className="footer-container">
         <div className="left">
           <div className="location">
