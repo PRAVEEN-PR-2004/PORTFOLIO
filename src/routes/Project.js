@@ -11,6 +11,7 @@ const Project = () => {
       <ScrollTransition />
       <Navbar />
       <Heroimg2 heading="PROJECTS" text="Some of my most recent projects" />
+      
       <WorkCart />
 
       <Footer />
