@@ -1,60 +1,76 @@
-.mask
-{
+.mask {
     width: 100%;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
-.into-img
-{
+
+.into-img {
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
     object-fit: cover;
+    transition: transform 0.5s ease-in-out; /* Smooth transition for zoom effect */
 }
-.mask::after
-{
-    content: " ";
+
+.mask::after {
+    content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background-color: #000;
-    opacity: 0.9;
-   
+    opacity: 0.5;
 }
-.hero
-{
+
+.hero {
     height: 100%;
     width: 100%;
+    overflow: hidden; /* Hide overflowing content */
 }
-.hero .content
-{
+
+.hero .content {
     position: absolute;
-    transform: translate(-50%, -50%);
-    top:50%;
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    color: #fff;
 }
-.hero .content h1{
+
+.hero .content p {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.hero .content h1 {
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
+    margin: 0;
 }
-.hero .content p{
-    font-size: 1.4rem;
-    font-weight: 200;
-    text-transform: uppercase;
-}
-.content .btn
-{
+
+.content .btn {
     margin: 1rem 0.2rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    display: inline-block;
 }
-@media screen and (max-width:640px) {
-    .hero .content h1
-    {
+
+.content .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media screen and (max-width: 640px) {
+    .hero .content h1 {
         font-size: 3rem;
     }
-    .hero .content p{
-        font-size: 1.4rem;
+
+    .hero .content p {
+        font-size: 1.2rem;
     }
 }
