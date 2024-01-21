@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Component/Navbar'
 import  Heroimg  from '../Component/Heroimg'
 import Footer from '../Component/Footer'
+import WorkCart from '../Component/WorkCart'
 
 
 function Home() {
@@ -10,6 +11,8 @@ function Home() {
     
         <Navbar/>
         <Heroimg />
+        <WorkCart />
+
         <Footer/>
     </div>
   )
