@@ -1,56 +1,33 @@
-import React from "react";
-import "./Footer.css";
-import { FaSchool, FaPhone, FaMailBulk, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import React from 'react';
+import { FaGithub, FaLinkedin, FaWhatsapp, FaPhone, FaEnvelope, FaHome } from 'react-icons/fa';
+import './FooterStyle.css'; // Import your CSS file for styling
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="footer ">
-      <div className="footer-container">
-        <div className="left">
-          <div className="location">
-            <FaSchool size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-
-            <div>
-              <p>SRI SHAKTHI INSTITUTE</p>
-              <p>Coimbatore</p>
-            </div>
+    <footer className="footer">
+      <div className="footer__container">
+        <div className="footer__left">
+          <div className="footer__contact-info">
+            <h3>Contact Me:</h3>
+            <br></br>
+            <a href="mailto:contact@yourportfolio.com"><FaEnvelope style={{marginRight:"10px"}}/> contact@yourportfolio.com</a>
+            <span><FaHome style={{marginRight:"10px"}} /> Your Address</span>
+            <a href="tel:+123456789"><FaPhone style={{marginRight:"10px"}}/> +123456789</a>
           </div>
-          <div className="phone">
-            <h4>
-             <FaPhone size={20} style={{ color: "#fff",marginRight:"2rem" }} />
-
-                9598412160
-           
-            </h4>
-          </div>
-          <div className="email">
-            <h4>
-              <FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />praveen@gamil.com
-            </h4>
-          </div>
-
         </div>
-        <div className="right">
-          <h4>ABOUT </h4>
-          <p>Enthusiastic frontend developer on a journey to conquer the realms of full-stack development. College student passionate about crafting seamless user experiences through code and design. 
-          </p>
+        <div className="footer__right">
+          <p style={{fontSize:"20px",fontWeight:"700"}}>ABOUT:</p>
           <br></br>
-          <div className="social"> {/* Corrected class name */}
-          <a href="https://www.linkedin.com/in/praveen-p-r-15-09-2004-ttp/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-          </a>
-          <a href="https://github.com/PRAVEEN-PR-2004" target="_blank" rel="noopener noreferrer">
-            <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-          </a>
-          <a href="https://wa.me/919597412160"  target="_blank" rel="noopener noreferrer">
-            <FaWhatsapp size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-          </a>
+          <p>Your portfolio description goes here.About: Your portfolio description goes here.About: Your portfolio description goes here.About: Your portfolio description goes here.About: Your portfolio description goes here.</p>
+          <div className="footer__social">
+            <a href="https://github.com/yourusername"><FaGithub /></a>
+            <a href="https://linkedin.com/in/yourusername"><FaLinkedin /></a>
+            <a href="https://wa.me/yourphonenumber"><FaWhatsapp /></a>
           </div>
         </div>
-
       </div>
-    </div>
+    </footer>
   );
-}
+};
 
 export default Footer;
