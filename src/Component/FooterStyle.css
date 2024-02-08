@@ -30,17 +30,18 @@
   }
   
   .footer__right {
-    text-align: right;
     margin-top: 10px; /* Add margin top between left and right */
   }
   
   .footer__right p {
     text-align: left; /* Align "About" text to the left */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    display: flex; /* Make the paragraph and icons display as flex items */
+    align-items: center; /* Align items vertically */
   }
   
   .footer__social {
-    display: flex;
-    justify-content: flex-end; /* Align social icons to the right */
+    margin-left: auto; /* Push social icons to the right */
   }
   
   .footer__social a {
