@@ -15,7 +15,7 @@ function AboutContent() {
           excited about the possibilities in tech's ever-evolving landscape.
         </p>
         <Link to='/contact'>
-          <button className='btn'>Contact</button>
+          <button className='homebtn'>Contact</button>
         </Link>
       </div>
       <div className='right'>

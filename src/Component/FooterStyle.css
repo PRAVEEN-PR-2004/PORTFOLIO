@@ -15,6 +15,7 @@
   .footer__left,
   .footer__right {
     width: 48%; /* Adjust as needed */
+   
   }
   
   .footer__left a {
@@ -48,6 +49,7 @@
     color: #fff;
     font-size: 1.8rem; /* Increase the size of social icons */
     margin: 0 10px; /* Adjust margin for social icons */
+    
   }
   
   /* Media Query for Small Devices */
@@ -55,6 +57,7 @@
     .footer__container {
       flex-direction: column;
       text-align: left; /* Align text to the left */
+      margin-left: 3%;
     }
   
     .footer__left,

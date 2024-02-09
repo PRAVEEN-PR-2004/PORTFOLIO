@@ -33,7 +33,7 @@ const Form = () => {
       <input type="email" name="user_email" />6
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="submit" className='homebtn' value="Send" />
     </form>
   );
 };

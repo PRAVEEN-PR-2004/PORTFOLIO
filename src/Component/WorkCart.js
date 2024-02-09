@@ -6,7 +6,7 @@ import "./WorkCart.css";
 function WorkCart() {
   return (
     <div className="work-container " >
-      <h1 className="project-heading ">projects</h1>
+      <h1 className="project-heading ">PROJECTS</h1>
       <div className="project-container ">
         {ProjectData.map((val, ind) => {
           return (

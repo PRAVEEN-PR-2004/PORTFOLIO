@@ -22,8 +22,14 @@
     padding: 0 1rem;
 }
 .nav-menu li a{
+    
     font-size: 1.2rem;
     font-weight: 500;
+}
+.nav-menu li a:hover
+{
+    color: rgb(90, 246, 13);
+    transition: 2s;
 }
 .hamburger
 {

@@ -8,8 +8,8 @@ const MainCart = (props) => {
     <div className='pro-details'>
         <p>{props.text}</p>
         <div className='pro-btns'>
-            <NavLink to={props.view} className="btn">view</NavLink>
-            <NavLink to={props.veiw} className="btn">source</NavLink>
+            <NavLink to={props.view} className="homebtn">view</NavLink>
+            <NavLink to={props.veiw} className="homebtn">source</NavLink>
         </div>
     </div>
 </div>

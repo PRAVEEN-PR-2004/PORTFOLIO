@@ -14,10 +14,10 @@ function Heroimg() {
                 <p>HI, I'M PRAVEEN P R.</p>
                 <h1>FRONTEND DEVELOPER</h1>
                 <div>
-                    <Link to="/project" className="btn">
+                    <Link to="/project" className="homebtn">
                         Projects
                     </Link>
-                    <Link to="/contact" className="btn btn-light">
+                    <Link to="/contact" className="homebtn homebtn-light">
                         Contacts
                     </Link>
                 </div>
