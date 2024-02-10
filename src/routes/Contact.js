@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useEffect} from "react";
 import Navbar from "../Component/Navbar";
 
 import Heroimg2 from "../Component/Heroimg2";
@@ -8,6 +8,9 @@ import Footer from "../Component/Footer";
 
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when component mounts
+  }, []);
   return (
     <div>
  
