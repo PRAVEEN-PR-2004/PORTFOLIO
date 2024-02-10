@@ -12,7 +12,7 @@ import project8 from "../assets/project8.png"
 const ProjectData = [
     {
         imgsrc: project8,
-        title: "HOTEL WEBSITE",
+        title: "Hotel Website",
         text:"Explore our mouthwatering menu on our React-powered food website. From savory dishes to sweet delights, we've got your cravings covered. Order now and treat yourself to a culinary adventure!",
         view:"https://master--friend-foodshop.netlify.app//",
         source:"https://github.com/PRAVEEN-PR-2004/foodapp"
@@ -40,7 +40,7 @@ const ProjectData = [
    
     {
         imgsrc: project4,
-        title: "E-COMMERCE WEBSITE",
+        title: "E-Commerce Website",
         text:"Built a clean, user-friendly e-commerce site for a friend using React and Bootstrap. The focus was simplicity and functionality, creating an intuitive platform to showcase products effectively.",
         view:"https://friend-shop.netlify.app/",
         source:"https://github.com/PRAVEEN-PR-2004/E-COMMERCE"
@@ -51,7 +51,7 @@ const ProjectData = [
    
     {
         imgsrc: project1,
-        title: "GYM WEBSITE",
+        title: "Gym Website",
         text:"Crafted a dynamic fitness website as part of a college project, employing HTML and CSS. This project embodies a blend of design and functionality, offering a user-friendly interface to explore fitness-related content and services.",
         view:"",
 
@@ -61,7 +61,7 @@ const ProjectData = [
     },
     {
         imgsrc: project2,
-        title: "STONE PAPPER SCISSOR",
+        title: "Stone Paper Scissors",
         text:"Interactive rock-Paper-Scissors game coded in HTML, CSS, and JavaScript for a fun gaming experience. Play against the computer and explore the classic game's dynamics!",
         view:"https://stone-papper-scissor.netlify.app/",
         source:"https://github.com/PRAVEEN-PR-2004/game" 
@@ -69,7 +69,7 @@ const ProjectData = [
     },
     {
         imgsrc: project3,
-        title: "CURRENCY CONVERTER",
+        title: "Currency Converter",
         text:"Welcome to our currency converter project! This application was created using HTML, CSS, and JavaScript, leveraging live currency data fetched from an API.",
         view:"https://findcurrency.netlify.app/",
         source:"https://github.com/PRAVEEN-PR-2004/API"
@@ -79,7 +79,7 @@ const ProjectData = [
     
     {
         imgsrc: project5,
-        title: "E-COMMERCE WEBSITE",
+        title: "E-Commerce Website",
         text:"Developed an innovative e-commerce website using React.js for a college project, combining modern technology with practical application. ",
         view:"https://#",
         source:""

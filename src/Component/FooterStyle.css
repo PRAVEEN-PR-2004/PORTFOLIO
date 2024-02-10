@@ -1,5 +1,5 @@
 .footer {
-    background-color: #333;
+    background-color:  #1a1919;
     padding: 20px 0;
     color: #fff;
   }
@@ -50,6 +50,11 @@
     font-size: 1.8rem; /* Increase the size of social icons */
     margin: 0 10px; /* Adjust margin for social icons */
     
+  }
+  .footer__social a :hover
+  {
+    color:rgb(90, 246, 13) ;
+    transition: 1s;
   }
   
   /* Media Query for Small Devices */

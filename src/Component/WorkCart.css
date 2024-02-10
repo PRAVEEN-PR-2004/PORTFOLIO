@@ -32,6 +32,7 @@
   padding-bottom: 2rem;
   font-size: 1.1rem;
   text-align: justify;
+  color: rgb(190, 194, 197);
 }
 .pro-btns {
   display: flex;
