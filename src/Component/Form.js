@@ -9,7 +9,7 @@ const Form = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_4w9xzlc', 'template_ptjh5gp', form.current, {
+      .sendForm('service_4w9xzlc', 'template_vykzeee', form.current, {
         publicKey: 'p1H47IM9LKDnV1-ai',
       })
       .then(
