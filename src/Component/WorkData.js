@@ -4,10 +4,47 @@ import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.png"
 import project5 from "../assets/project5.png"
 import project6 from "../assets/project6.png"
+import project7 from "../assets/project7.png"
+import project8 from "../assets/project8.png"
 
 
 
 const ProjectData = [
+    {
+        imgsrc: project8,
+        title: "HOTEL WEBSITE",
+        text:"Explore our mouthwatering menu on our React-powered food website. From savory dishes to sweet delights, we've got your cravings covered. Order now and treat yourself to a culinary adventure!",
+        view:"https://master--friend-foodshop.netlify.app//"
+
+    },
+   
+    {
+        imgsrc: project7,
+        title: "React-Porfolio",
+        text:"Excited to share my latest project – a dynamic React Portfolio showcasing my skills, projects, and experiences. With a sleek design and interactive interface, it's a comprehensive display of my expertise. Check it out and let's connect!",
+        view:"https://personal-myportfolio.netlify.app/"
+
+    },
+   
+   
+    {
+        imgsrc: project6,
+        title: "Porfolio",
+        text:"This project is a testament to my passion for web development, combining HTML and CSS to craft a visually engaging and functional portfolio. It represents my dedication to showcasing skills and projects in an intuitive and stylish manner ",
+        view:"https://my-first-personal-portfolio.netlify.app/"
+
+    },
+   
+    {
+        imgsrc: project4,
+        title: "E-COMMERCE WEBSITE",
+        text:"Built a clean, user-friendly e-commerce site for a friend using React and Bootstrap. The focus was simplicity and functionality, creating an intuitive platform to showcase products effectively.",
+        view:"https://friend-shop.netlify.app/"
+
+
+    },
+   
+   
     {
         imgsrc: project1,
         title: "GYM WEBSITE",
@@ -31,14 +68,7 @@ const ProjectData = [
 
 
     },
-    {
-        imgsrc: project4,
-        title: "E-COMMERCE WEBSITE",
-        text:"Built a clean, user-friendly e-commerce site for a friend using React and Bootstrap. The focus was simplicity and functionality, creating an intuitive platform to showcase products effectively.",
-        view:"https://friend-shop.netlify.app/"
-
-
-    },
+    
     {
         imgsrc: project5,
         title: "E-COMMERCE WEBSITE",
@@ -46,13 +76,7 @@ const ProjectData = [
         view:"https://#"
 
     },
-    {
-        imgsrc: project6,
-        title: "Porfolio",
-        text:"This project is a testament to my passion for web development, combining HTML and CSS to craft a visually engaging and functional portfolio. It represents my dedication to showcasing skills and projects in an intuitive and stylish manner ",
-        view:"https://ffucum2zge9ucso3zybbhg.on.drv.tw/portfolio/portfolio.html"
-
-    },
+   
    
    
 ]
