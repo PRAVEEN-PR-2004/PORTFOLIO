@@ -9,8 +9,8 @@ const Form = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_4w9xzlc', 'template_vykzeee', form.current, {
-        publicKey: 'p1H47IM9LKDnV1-ai',
+      .sendForm('service_gft5zyk', 'template_6u2j1pk', form.current, {
+        publicKey: 'jAaB_52VdgdZ0HT2I',
       })
       .then(
         () => {
