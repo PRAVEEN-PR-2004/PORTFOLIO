@@ -9,7 +9,7 @@ const MainCart = (props) => {
         <p>{props.text}</p>
         <div className='pro-btns'>
             <NavLink to={props.view} className="homebtn">view</NavLink>
-            <NavLink to={props.veiw} className="homebtn">source</NavLink>
+            <NavLink to={props.source} className="homebtn">source</NavLink>
         </div>
     </div>
 </div>
