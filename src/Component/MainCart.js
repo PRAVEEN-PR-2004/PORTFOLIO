@@ -1,7 +1,9 @@
 import React from 'react'
+import { Slide } from 'react-awesome-reveal'
 import { NavLink } from 'react-router-dom'
 const MainCart = (props) => {
   return (
+    <Slide triggerOnce duration={1000}>
 <div className='project-card '>
     <img src={props.imgsrc} alt='img'/>
     <h2 className='project-title>'>{props.title}</h2>
@@ -13,6 +15,7 @@ const MainCart = (props) => {
         </div>
     </div>
 </div>
+</Slide>
   )
 }
 

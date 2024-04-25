@@ -1,9 +1,11 @@
 import React from 'react';
 import './AboutContent.css';
 import { Link } from 'react-router-dom';
+import { Slide } from 'react-awesome-reveal';
 
 function AboutContent() {
   return (
+    <Slide duration={1000} triggerOnce>
     <div className='about'>
       <div className='left'>
         <h1>Who Am I</h1>
@@ -28,6 +30,7 @@ function AboutContent() {
         </div>
       </div>
     </div>
+    </Slide>
   );
 }
 

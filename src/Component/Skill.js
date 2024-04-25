@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Skill.css"
-
+import { Slide } from "react-awesome-reveal";
 
 const Skill = () => {
   return (
+    <Slide triggerOnce duration={1000}>
     <div className='skill'>
             <h1 className='skillheading'>SKILLS</h1>
         <div className='card-container'>
@@ -35,6 +36,7 @@ const Skill = () => {
             </div>
         </div>
     </div>
+    </Slide>
   )
 }
 

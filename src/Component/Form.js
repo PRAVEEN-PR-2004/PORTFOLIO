@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Form.css';
+import { Slide } from 'react-awesome-reveal';
 
 const Form = () => {
   const form = useRef();
@@ -26,6 +27,7 @@ const Form = () => {
   };
 
   return (
+    <Slide duration={1000} triggerOnce>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
@@ -35,6 +37,7 @@ const Form = () => {
       <textarea name="message" />
       <input type="submit" className='homebtn' value="Send" />
     </form>
+    </Slide>
   );
 };
 
