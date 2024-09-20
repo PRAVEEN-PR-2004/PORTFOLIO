@@ -17,7 +17,7 @@ const ProjectData = [
         title: "ANIME HOME PAGE",
         text:"Immerse yourself in the world of anime on our React-powered website. From action-packed series to heartwarming stories, we've got all your favorites in one place. Start watching now and dive into an epic anime adventure!",
         view:"https://guileless-tartufo-06b2f8.netlify.app/",
-        source:"https://github.com/PRAVEEN-PR-2004/clone"
+        source:"https://github.com/PRAVEEN-PR-2004/anime"
     
     },
     {
@@ -25,7 +25,7 @@ const ProjectData = [
         title: "GT-HOLIDAYS CLONE",
         text:"Discover your dream getaway on our React-powered GT Holidays clone website. From exotic destinations to personalized travel packages, we've got your perfect vacation covered. Book now and embark on an unforgettable journey!",
         view:"https://gtholidays.netlify.app/",
-        source:"https://github.com/PRAVEEN-PR-2004/PORTFOLIO"
+        source:"https://github.com/PRAVEEN-PR-2004/clone"
     
     },
     {
