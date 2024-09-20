@@ -9,7 +9,7 @@ import Footer from "../Component/Footer";
 
 const Contact = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top when component mounts
+    window.scrollTo(0, 0); 
   }, []);
   return (
     <div>

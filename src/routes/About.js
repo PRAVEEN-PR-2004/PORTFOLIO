@@ -16,7 +16,7 @@ const About = () => {
       
       
       <Navbar />
-      <Heroimg2 heading="ABOUT" text="I'm a friendly frontend developer" />
+      <Heroimg2 heading="ABOUT" text="I'm a friendly mern developer" />
       <AboutContent />
       <Skill />
       <Footer />

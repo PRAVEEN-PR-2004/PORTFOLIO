@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="footer__right">
           <p style={{fontSize:"20px",fontWeight:"700"}}>ABOUT:</p>
           
-          <p>Frontend developer & freelancer passionate about crafting captivating digital experiences through innovative design and seamless functionality. Let's collaborate and turn your vision into reality. Contact me today!
+          <p>MERN and Java developer & freelancer passionate about building robust digital solutions through innovative design and efficient functionality. Let’s collaborate and bring your vision to life. Contact me today!
 
 </p>
           <div className="footer__social">

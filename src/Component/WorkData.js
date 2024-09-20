@@ -6,10 +6,28 @@ import project5 from "../assets/project5.png"
 import project6 from "../assets/project6.png"
 import project7 from "../assets/project7.png"
 import project8 from "../assets/project8.png"
+import project9 from "../assets/project9.png"
+import project10 from "../assets/project10.png"
 
 
 
 const ProjectData = [
+    {
+        imgsrc: project10,
+        title: "ANIME HOME PAGE",
+        text:"Immerse yourself in the world of anime on our React-powered website. From action-packed series to heartwarming stories, we've got all your favorites in one place. Start watching now and dive into an epic anime adventure!",
+        view:"https://guileless-tartufo-06b2f8.netlify.app/",
+        source:"https://github.com/PRAVEEN-PR-2004/clone"
+    
+    },
+    {
+        imgsrc: project9,
+        title: "GT-HOLIDAYS CLONE",
+        text:"Discover your dream getaway on our React-powered GT Holidays clone website. From exotic destinations to personalized travel packages, we've got your perfect vacation covered. Book now and embark on an unforgettable journey!",
+        view:"https://gtholidays.netlify.app/",
+        source:"https://github.com/PRAVEEN-PR-2004/PORTFOLIO"
+    
+    },
     {
         imgsrc: project8,
         title: "Hotel Website",
@@ -62,7 +80,7 @@ const ProjectData = [
     {
         imgsrc: project2,
         title: "Stone Paper Scissors",
-        text:"Interactive rock-Paper-Scissors game coded in HTML, CSS, and JavaScript for a fun gaming experience. Play against the computer and explore the classic game's dynamics!",
+        text:"Interactive rock-Paper-Scissors game coded in HTML, CSS, and JavaScript for a fun gaming experience and it is also responsible for mobile. Play against the computer and explore the classic game's dynamics!",
         view:"https://stone-papper-scissor.netlify.app/",
         source:"https://github.com/PRAVEEN-PR-2004/game" 
 
@@ -85,6 +103,7 @@ const ProjectData = [
         source:""
 
     },
+   
    
    
    

@@ -22,6 +22,12 @@
     background-color: #000;
     opacity: 0.5;
 }
+#name
+{
+    color: rgb(90, 246, 13);
+    font-size: 25px;
+    font-weight: bold;
+}
 
 .hero {
     height: 100%;

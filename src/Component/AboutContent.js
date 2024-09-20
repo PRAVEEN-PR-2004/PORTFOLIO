@@ -10,11 +10,7 @@ function AboutContent() {
       <div className='left'>
         <h1>Who Am I</h1>
         <p>
-          Hey there! I'm Praveen P R, a college student diving into frontend
-          development with a passion for creating intuitive user experiences.
-          Eager to transition into full-stack, I'm dedicated to learning and
-          growing my skills. I thrive on the fusion of design and coding and am
-          excited about the possibilities in tech's ever-evolving landscape.
+        Hey there! I'm Praveen P R, a college student diving into MERN and Java development with a passion for creating intuitive and efficient user experiences. Eager to expand my full-stack skills, I'm dedicated to learning and growing in both frontend and backend technologies. I thrive on the blend of design, coding, and problem-solving, and I'm excited about the endless possibilities in tech's ever-evolving landscape.
         </p>
         <Link to='/contact'>
           <button className='homebtn'>Contact</button>

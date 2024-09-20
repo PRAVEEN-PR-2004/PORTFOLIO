@@ -15,7 +15,7 @@ const Project = () => {
     <>
     
       <Navbar />
-      <Heroimg2 heading="PROJECTS" text="Some of my most recent projects" />
+      <Heroimg2 heading="PROJECTS" text="Some of my best projects" />
       
       <WorkCart />
       <Footer/>

@@ -2,6 +2,7 @@
   text-align: center;
   padding: 4rem 0 2rem 0;
 }
+
 .project-container {
   max-width: 1140px;
   margin: auto;
@@ -10,10 +11,14 @@
   grid-gap: 40px;
   padding-bottom: 5rem;
 }
+
 .project-card {
   background-color: #1a1919;
   padding: 1.2rem 1rem;
-
+  height: 100%; /* Ensures all cards maintain the same height */
+  display: flex;
+  flex-direction: column; /* Aligns content vertically */
+  justify-content: space-between; /* Ensures the card content is spaced */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -23,26 +28,32 @@
 
 .project-card img {
   width: 100%;
+  height: auto; /* Ensures image adapts to card size */
 }
+
 .project-card h2 {
   color: #fff;
   padding: 1rem 0;
 }
+
 .pro-details p {
   padding-bottom: 2rem;
   font-size: 1.1rem;
   text-align: justify;
   color: rgb(190, 194, 197);
+  flex-grow: 1; /* Allows description to grow and fill available space */
 }
+
 .pro-btns {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0;
-
 }
+
 .pro-btns .btn {
   padding: 0.5rem 1rem;
 }
+
 @media screen and (max-width: 740px) {
   .project-container {
     max-width: 90%;

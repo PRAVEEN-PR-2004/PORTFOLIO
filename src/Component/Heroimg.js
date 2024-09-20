@@ -11,8 +11,8 @@ function Heroimg() {
                 <img className="into-img" src={img1} alt="intoimg" />
             </div>
             <div className="content">
-                <p>HI, I'M PRAVEEN P R.</p>
-                <h1>FRONTEND DEVELOPER</h1>
+                <p id='name'>HI, I'M PRAVEEN P R.</p>
+                <h1>MERN STACK DEVELOPER</h1>
                 <div>
                     <Link to="/project" className="homebtn">
                         Projects
