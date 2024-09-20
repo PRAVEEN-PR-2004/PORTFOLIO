@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaWhatsapp, FaPhone, FaEnvelope, FaHome } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
 import './FooterStyle.css'; // Import your CSS file for styling
 
 const Footer = () => {
@@ -25,6 +26,7 @@ const Footer = () => {
             <a href="https://github.com/PRAVEEN-PR-2004"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/praveen-p-r-15-09-2004-ttp/"><FaLinkedin /></a>
             <a href="https://wa.me/919597412160"><FaWhatsapp /></a>
+            <a href="https://leetcode.com/u/praveen2004ttp/"><SiLeetcode/></a>
           </div>
         </div>
       </div>

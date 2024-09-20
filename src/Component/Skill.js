@@ -1,43 +1,61 @@
-import React from 'react'
-import "./Skill.css"
-import { Slide } from "react-awesome-reveal";
+import React from 'react';
+import './Skill.css';
 
 const Skill = () => {
   return (
-    <Slide triggerOnce duration={1000}>
-    <div className='skill'>
-            <h1 className='skillheading'>SKILLS</h1>
-        <div className='card-container'>
-            <div className='card'>
-                <h3>- FRONTEND -</h3>
-                <span className='bar'></span>
-                <p>- HTML -</p>
-                <p>- CSS -</p>
-                <p>- BOOSTRAP -</p>
-                <p>- JAVA SCRIPT -</p>
-                <p>- REACT JS -</p>
-
-            </div>
-            <div className='card'>
-                <h3>- BACKEND -</h3>
-                <span className='bar'></span>
-                <p>- PHP -</p>
-                <p>- MYSQL -</p>
-                <p>- MANGODB -</p>
-                
-            </div>
-            <div className='card'>
-                <h3>- PROGRAMMIG -</h3>
-                <span className='bar'></span>
-                <p>- JAVA -</p>
-                <p>- C -</p>
-               
-
-            </div>
+    <div className="skill-section">
+      <div className="skill-container">
+        <h1 className='heading-skill'>SKILLS</h1>
+        <div className="progress-bar">
+          <p>Java</p>
+          <div className="progress">
+            <div className="progress-fill" style={{ width: '85%', backgroundColor: '#00ffbf' }}></div>
+          </div>
         </div>
-    </div>
-    </Slide>
-  )
-}
+        <div className="progress-bar">
+          <p>Dsa in java</p>
+          <div className="progress">
+            <div className="progress-fill" style={{ width: '50%', backgroundColor: '#00ffbf' }}></div>
+          </div>
+        </div>
 
-export default Skill
+        <div className="progress-bar">
+          <p>React</p>
+          <div className="progress">
+            <div className="progress-fill" style={{ width: '80%', backgroundColor: '#00ffbf' }}></div>
+          </div>
+        </div>
+
+
+        <div className="progress-bar">
+          <p>Tailwind-CSS</p>
+          <div className="progress">
+            <div className="progress-fill" style={{ width: '70%', backgroundColor: '#00ffbf' }}></div>
+          </div>
+        </div>
+
+        <div className="progress-bar">
+          <p>Bootstrap</p>
+          <div className="progress">
+            <div className="progress-fill" style={{ width: '90%', backgroundColor: '#00ffbf' }}></div>
+          </div>
+        </div>
+
+        <div className="progress-bar">
+          <p>Mongodb</p>
+          <div className="progress">
+            <div className="progress-fill" style={{ width: '50%', backgroundColor: '#00ffbf' }}></div>
+          </div>
+        </div>
+        <div className="progress-bar">
+          <p>Mysql</p>
+          <div className="progress">
+            <div className="progress-fill" style={{ width: '50%', backgroundColor: '#00ffbf' }}></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Skill;
